@@ -1,0 +1,31 @@
+{
+  "name": "challengekit-ts",
+  "version": "0.0.0",
+  "main": "dist/index.ts",
+  "repository": "https://github.com/willhackett/challengekit-ts",
+  "author": "Will Hackett <12025460+willhackett@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist",
+    "test": "jest --coverage",
+    "watch": "jest --watch"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.0.0",
+    "eslint": "^7.30.0",
+    "eslint-config-google": "^0.14.0",
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.5"
+  },
+  "eslintConfig": {
+    "extends": "google"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
+}
